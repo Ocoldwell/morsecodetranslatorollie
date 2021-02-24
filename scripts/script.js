@@ -1,0 +1,1 @@
+import { translateEnglishToMorse } from './translator.js'
