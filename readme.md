@@ -2,9 +2,9 @@
 
 This project was designed in 2 days as a challenge for my Nology course, and to practice test driven development as well as good file structure and modular javascript that is easily testable. It translates English to Morse Code and Morse Code to English, this was achieved using an object, and key-value pairs, and then using underscore.js invert function for the Morse Code.
 
-![Screenshot of translator](./hidden/Screenshot%202021-02-25%20at%2022.38.54.png)
+![Screenshot of translator](./images/Screenshot%202021-02-25%20at%2022.38.54.png)
 
-![Screenshot of translated text](./hidden/Screenshot%202021-02-25%20at%2022.41.24.png)
+![Screenshot of translated text](./images/Screenshot%202021-02-25%20at%2022.41.24.png)
 
 ***
 
