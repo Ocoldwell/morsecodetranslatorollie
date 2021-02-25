@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  font-family: $font-family;
+  main {
+  display: grid;
+  grid-template-areas: 
+  "header header header"
+  ".label ."
+  ".input ."
+  ".output .";
+  border-radius: 50px;
+  text-justify: center;
+  h1 {
+    grid-area: header;
+    font-size: $header-size;
+    margin: 10px;
+    letter-spacing: 10px;
+  }
+  label {
+    grid-area: label;
+  }
+  input {
+    grid-area: input;
+  }
+  p {
+    grid-area: output;
+    font-size: 72px;
+  }
+}
+}

@@ -1,0 +1,11 @@
+$font-family: 'Raleway', sans-serif;
+$font-size: 24px;
+$header-size: 2em;
+* {
+  font-size: $font-size;
+  text-align: center;
+}
+
+.letter-spacing {
+  letter-spacing: 10px;
+}

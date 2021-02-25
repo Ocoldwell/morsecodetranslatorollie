@@ -396,11 +396,13 @@ th {
   padding: 0;
 }
 
-#hidden-submit {
-  position: absolute;
-  left: -9999px;
-  width: 1px;
-  height: 1px;
+* {
+  font-size: 24px;
+  text-align: center;
+}
+
+.letter-spacing {
+  letter-spacing: 10px;
 }
 
 body {
@@ -411,4 +413,38 @@ body {
   position: relative;
   height: 100vh;
   width: 100vw;
+  font-family: "Raleway", sans-serif;
 }
+body main {
+  display: grid;
+  grid-template-areas: "header header header" ".label ." ".input ." ".output .";
+  border-radius: 50px;
+  text-justify: center;
+}
+body main h1 {
+  grid-area: header;
+  font-size: 2em;
+  margin: 10px;
+  letter-spacing: 10px;
+}
+body main label {
+  grid-area: label;
+}
+body main input {
+  grid-area: input;
+}
+body main p {
+  grid-area: output;
+  font-size: 72px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #translated-output {
+    font-size: 24px;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
