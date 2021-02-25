@@ -5,13 +5,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Morse Translator</title>
+  <link rel="stylesheet" href="./styles/style.css">
   <script src="scripts/script.js" type="module" async defer></script>
 </head>
 <body>
-  <form action="">  
-    <label for=""></label>
-    <input type="text">
-    <button></button>
-  </form>
+  <h1>A English to Morse and vice </h1>
+  <main>
+    <label for="translation-text">Type in here to translate your Morse to English</label>
+    <input type="text" name="translation-text" id= 'translation-input'>
+    <input type="submit" tabindex="-1" id="hidden-enter"/>
+    <input type="text" id="translated-output" disable>
+  </main>
 </body>
 </html>
