@@ -6,15 +6,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Morse Translator</title>
   <link rel="stylesheet" href="./styles/style.css">
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/0.10.0/lodash.min.js"></script>
   <script src="scripts/script.js" type="module" async defer></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet"> 
 </head>
 <body>
-  <h1>A English to Morse and vice </h1>
+  <h1>A Morse/English translator </h1>
   <main>
-    <label for="translation-text">Type in here to translate your Morse to English</label>
+    <label for="translation-text">Type here in Morse or English</label>
     <input type="text" name="translation-text" id= 'translation-input'>
     <input type="submit" tabindex="-1" id="hidden-enter"/>
-    <input type="text" id="translated-output" disable>
+    <p id="translated-output"></p> 
   </main>
 </body>
 </html>

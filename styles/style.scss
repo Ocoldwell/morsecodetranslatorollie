@@ -6,6 +6,17 @@
   height: 1px;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
 main {
-  
+  display: grid;
+  grid-template-areas: ""
 }
