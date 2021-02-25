@@ -1,0 +1,72 @@
+# Morse Code Translator
+
+This project was designed in 2 days as a challenge for my Nology course, and to practice test driven development. It translates English to Morse Code and Morse Code to English, this was achieved using an object, and key-value pairs, and then using underscore.js invert function for the Morse Code.
+
+![Screenshot of translator]()
+
+![Screenshot of choices]()
+
+
+
+***
+
+## Getting Started
+
+
+## Motivation
+
+I made this for my weekly challenge on the Nology.io web development course.
+We had one week to make it and so I wanted to choose something that was challenging and that I enjoy, much like my dog.
+Ruby is my puppy who at the time of writing this readme is 15 weeks old, and she's very mischievous and so she was my inspiration.
+I've always loved interactive fiction and wanted to write something in Javascript, which ended up being surprisingly challenging.
+
+## Build Status
+
+The game is functionally complete and works reliably. It needs to be tested using Cypress and I will be writing tests in the coming weeks.
+
+## Built with
+
+- Javascript
+- SASS
+- HTML
+
+## Features
+
+The main functionality of this project is how it iterates through numerous objects and arrays which contain the strings of the story which is then printed using the typewriter function.
+This is done on the keyhandler function. The keyHandler sends to a function that handles the object, creates an array of its properties and then accesses them here:
+
+### objectHandler function
+
+![objectHandler](hidden/Screenshot%202021-02-23%20at%2019.15.47.png)
+
+This then sends to the typewriter function below:
+
+### Typewriter function
+
+![typeWriter function](hidden/Screenshot%202021-02-23%20at%2019.07.47.png)
+
+## Testing
+
+ It needs to be tested using Cypress and end to end testing as all of the code interrelates to each other.  I will be writing tests in the coming weeks.
+
+## How to Use
+
+The game itself has instructions appear, but enter is used to proceed the story, 1 and 2 will select the choices when presented.
+
+## Extensions
+
+A project for future would be to refactor the choices into binary as this would provide an easy way to access unique choices.
+Another option would be to rewrite the if/else function into a switch function for each choiceIndex on lines 22-34 and 42-52. These changes combined would eliminate all of the global variables that I was tracking for each object, array and string.
+
+- Restyling button and hiding until game end.
+- Adding further branches and dead ends so isn't linear.
+- Refactoring entire base to encode choices with binary and reduce abstraction.
+- Adding end to end tests to find bugs and test stability.
+
+## Contributions
+
+If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcome.
+
+## License
+
+The code in this project is licensed under MIT license.

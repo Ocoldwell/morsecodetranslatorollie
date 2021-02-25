@@ -24,7 +24,7 @@ const translateEnglishToMorse= (text) => {
 };
 const translateMorseToEnglish= (text)=> {
   const invertedAlphabet = invertObject(alphabet)
-  const translatedString= text.split('   ').map(word => word.split(' ').map(letter => invertedAlphabet[letter]).join("")).join("  ") 
+  const translatedString= text.split('   ').map(word => word.split(' ').map(letter => invertedAlphabet[letter]).join("")).join  ("  ") 
   return translatedString.charAt(0).toUpperCase() + translatedString.slice(1);
 };
 
