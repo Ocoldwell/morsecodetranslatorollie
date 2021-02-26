@@ -4,9 +4,21 @@ This project was designed in 2 days as a challenge for my Nology course, and to 
 
 ![Screenshot of translator](./images/Screenshot%202021-02-25%20at%2022.38.54.png)
 
-![Screenshot of translated text](./images/Screenshot%202021-02-25%20at%2022.41.24.png)
+![Screenshot of translated text](.//Screenshot%202021-02-25%20at%2022.41.24.png)
 
 ***
+
+- [Morse Code Translator](#morse-code-translator)
+  - [Dependencies](#dependencies)
+  - [Motivation](#motivation)
+  - [Build Status](#build-status)
+  - [Built with](#built-with)
+  - [Features](#features)
+  - [Testing](#testing)
+  - [How to Use](#how-to-use)
+  - [Extensions](#extensions)
+  - [Contributions](#contributions)
+  - [License](#license)
 
 ## Dependencies
 
