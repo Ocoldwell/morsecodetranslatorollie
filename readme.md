@@ -4,7 +4,7 @@ This project was designed in 2 days as a challenge for my Nology course, and to 
 
 ![Screenshot of translator](./images/Screenshot%202021-02-25%20at%2022.38.54.png)
 
-![Screenshot of translated text](.//Screenshot%202021-02-25%20at%2022.41.24.png)
+![Screenshot of translated text](./images/Screenshot%202021-02-25%20at%2022.41.24.png)
 
 ***
 
