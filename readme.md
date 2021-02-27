@@ -1,6 +1,6 @@
 # Morse Code Translator
 
-This project was designed in 2 days as a challenge for my Nology course, and to practice test driven development as well as good file structure and modular javascript that is easily testable. It translates English to Morse Code and Morse Code to English, this was achieved using an object, and key-value pairs, and then using underscore.js invert function for the Morse Code.
+This project was designed in 2 days as a challenge for my Nology course. We had to practice test driven development, clean file structure and modular javascript that is easily testable. It translates English to Morse Code and Morse Code to English, this was achieved using an object, and key-value pairs, and then using underscore.js invert function for the Morse Code.
 
 ![Screenshot of translator](./images/Screenshot%202021-02-25%20at%2022.38.54.png)
 
@@ -22,7 +22,7 @@ This project was designed in 2 days as a challenge for my Nology course, and to 
 
 ## Dependencies
 
-_underscore.js, everything else should work out of the box.
+_underscores, and if wanting to run tests, Jest, everything else should work out of the box.
 
 ## Motivation
 
@@ -64,7 +64,7 @@ const translateMorseToEnglish= (text)=> {
 
 ## How to Use
 
-Type in the box provided and it should detect the language used and output the translation. To create a new word in morse use 3 spaces between them.
+Type in the box provided and it should detect the language used and output the translation. Current Morse syntax is one space between each character and three between words. 
 
 ## Extensions
 
